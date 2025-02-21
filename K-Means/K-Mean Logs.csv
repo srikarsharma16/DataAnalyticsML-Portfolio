@@ -1,0 +1,8 @@
+Version,Change Type,Description
+v1.1,Dataset Update,Replaced synthetic data with real-world Penguins dataset.
+v1.1,Preprocessing,Applied feature scaling using StandardScaler.
+v1.1,Model Improvement,Used Elbow Method to determine optimal `k`.
+v1.1,Evaluation,Added Silhouette Score for performance assessment.
+v1.1,Visualization,Highlighted centroids and improved scatter plots.
+v1.1,Logging,Integrated structured logging for debugging.
+v1.0,Initial Version,Used synthetic datasets with fixed cluster numbers.

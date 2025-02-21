@@ -1,0 +1,9 @@
+VersionChange Category,Description
+1.2,Decision Boundary Visualization,"Fixed decision boundary visualization issue by training an SVM model with only two features"
+1.2,Dataset Handling,"Updated dataset handling to use only 'bill_length_mm' and 'bill_depth_mm' for visualization"
+1.1,Dataset Source,"Replaced synthetic dataset with a real Kaggle dataset"
+1.1,Framework,"Implemented CRISP-DM framework"
+1.1,Hyperparameter Tuning,"Added hyperparameter tuning using GridSearchCV"
+1.1,Visualization,"Improved decision boundary visualization"
+1.1,Logging,"Introduced structured logging"
+1.0,Initial Implementation,"Initial implementation with basic SVM classification"

@@ -1,0 +1,9 @@
+Change Category,Old Code,New Code
+Dataset Used,"make_blobs() synthetic dataset, load_digits() dataset","Iris dataset from Seaborn (sns.load_dataset('iris'))"
+Hyperparameter Tuning,Used default parameters for RandomForest,"Implemented GridSearchCV for tuning n_estimators, max_depth, and min_samples_split"
+Model Training Approach,Directly fitted RandomForest model,"Used GridSearchCV to find best parameters before fitting"
+Feature Importance Visualization,Not present,"Added bar chart visualization of feature importance using pd.Series(best_model.feature_importances_)"
+Evaluation Metrics,Only confusion matrix,"Included classification_report, accuracy_score, and logging of best parameters"
+Data Handling,Used NumPy arrays and synthetic data,"Used Pandas DataFrame from sns.load_dataset('iris')"
+Train-Test Split,"train_test_split(digits.data, digits.target, random_state=0)","train_test_split(X, y, test_size=0.2, random_state=42)"
+Overall Structure,"Mixed multiple examples (classification, regression, visualization)","More structured pipeline following CRISP-DM"

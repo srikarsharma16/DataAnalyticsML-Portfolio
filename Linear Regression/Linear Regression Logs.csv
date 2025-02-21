@@ -1,0 +1,8 @@
+Version,Change Category,Description
+v1.2,Updated Dataset,"Replaced previous dataset with Penguins dataset."
+v1.2,Feature Engineering,"Selected numerical features (bill_length_mm, bill_depth_mm, flipper_length_mm) and categorical features (species, island, sex)."
+v1.2,Preprocessing Pipeline,"Scaled numerical features with StandardScaler; Encoded categorical features with OneHotEncoder; Combined preprocessing steps into one using ColumnTransformer."
+v1.2,Regression Approach,"Removed Ridge Regression: Used plain Linear Regression instead of Ridge."
+v1.2,Model Evaluation,"Computed RMSE and R² scores to evaluate performance; Added a residual plot to display model errors."
+v1.2,Model Saving,"Serialized the trained model with joblib.dump()."
+v1.1,Initial Changes,"Improved data handling and missing value removal; Ensured proper train-test split; Used a structured pipeline approach for model training; Added better model evaluation metrics."

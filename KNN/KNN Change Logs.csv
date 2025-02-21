@@ -1,0 +1,9 @@
+Change Category,Description
+Dataset Change,Replaced Iris dataset with the Penguins dataset.
+Data Processing,Dropped missing values and encoded categorical target variables.
+Feature Selection,Used "bill_length_mm" and "bill_depth_mm" as features instead of PCA-transformed features.
+Logging Integration,Added logging for better tracking of process execution.
+Hyperparameter Tuning,Expanded "n_neighbors" search range from [1,3,5] to [1, 20].
+Performance Metrics,Used accuracy_score for evaluation instead of direct classification_report.
+Visualization,Implemented decision boundary plotting using matplotlib and seaborn.
+Dummy Classifier Removal,Removed DummyClassifier comparison for simplicity.

@@ -1,0 +1,11 @@
+Version,Change Category,Description
+v1.2,Data Handling,"Fixed Data Handling: Replaced assign() method with pd.get_dummies() for better categorical encoding."
+v1.2,Feature Scaling,"Introduced StandardScaler to normalize Age and Pclass for better model performance."
+v1.2,Hyperparameter Tuning,"Updated Hyperparameter Tuning: Optimized logistic regression using GridSearchCV with an improved parameter grid."
+v1.2,Evaluation Improvements,"Introduced ROC Curve & AUC Score to assess model performance."
+v1.2,Test Split,"Increased Test Size: Changed test_size from 0.05 to 0.2 for a better validation split."
+v1.1,Model Implementation,"Implemented Logistic Regression: Basic model training using sklearn.linear_model.LogisticRegression()."
+v1.1,Cross-Validation,"Added Cross-Validation: Used cross_val_score() for performance evaluation."
+v1.1,Hyperparameter Optimization,"Applied GridSearchCV with a logarithmic range of C values."
+v1.1,Data Preprocessing,"Basic Data Preprocessing: Converted Sex column into a binary Female column; Dropped missing values from Age."
+v1.1,Performance Visualization,"Basic Performance Visualization: Compared actual vs. predicted values in a heatmap."

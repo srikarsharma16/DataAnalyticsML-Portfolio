@@ -1,0 +1,7 @@
+Version,Change Category,Description
+v1.1,Replaced Synthetic Dataset,"Previous implementation used make_blobs to generate synthetic clustered data. Updated to use the Penguins dataset for a real-world classification problem."
+v1.1,Updated Feature Engineering & Preprocessing,"Encoded categorical variables (species, island, sex) using LabelEncoder(). Dropped species from the features to use it as the target variable."
+v1.1,Implemented Train-Test Split,"Replaced previous randomized tree visualization with a proper train_test_split (80/20 split). Ensured reproducibility using random_state=42."
+v1.1,Model Training and Evaluation,"Previously, only decision boundaries were visualized. Now, trained a Decision Tree Classifier on the Penguins dataset. Evaluated performance using accuracy_score for model accuracy and classification_report for precision, recall, and F1-score."
+v1.1,Decision Tree Visualization,"Replaced interactive visualization (helpers_05_08) with plot_tree() from sklearn.tree. Used feature names from the Penguins dataset and filled nodes with colors for better readability."
+v1.0,Initial Implementation,"Initial implementation with synthetic data (make_blobs). Used a simple decision boundary visualization. No categorical encoding or real dataset used, and no proper evaluation metrics were included."
