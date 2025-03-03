@@ -35,9 +35,9 @@ This repository contains implementations of various **Machine Learning algorithm
 
 
 Each folder contains:
-- Jupyter Notebook (`.ipynb`) implementing the algorithm
-- HTML and PDF exports of the notebook for easy viewing
-- CSV file Logs
+- 📜 **Jupyter Notebook (.ipynb)** implementing the algorithm.
+- 🖥️ **HTML and PDF exports** of the notebook for easy viewing.
+- 📊 **CSV file Logs** documenting the model performance and improvements.
 
 ## How to Use
 1. Clone this repository:
