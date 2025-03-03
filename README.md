@@ -21,16 +21,16 @@ This repository contains implementations of various **Machine Learning algorithm
 ---
 
 ## 📂 Project Structure  
-DataAnalyticsML-Portfolio/
-│── Decision Tree/ 
-│── K-Means/ 
-│── KNN/ 
-│── Linear Regression/ 
-│── Logistic Regression/ 
-│── Naive Bayes/ 
-│── Random Forest Classifier/ 
-│── Support Vector Machine/ 
-│── README.md
+- **DataAnalyticsML-Portfolio/**
+  - 📂 **Decision Tree/**
+  - 📂 **K-Means/**
+  - 📂 **KNN/**
+  - 📂 **Linear Regression/**
+  - 📂 **Logistic Regression/**
+  - 📂 **Naive Bayes/**
+  - 📂 **Random Forest Classifier/**
+  - 📂 **Support Vector Machine/**
+  - 📄 **README.md** (This file)
 
 
 Each folder contains:
