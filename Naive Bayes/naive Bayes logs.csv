@@ -1,9 +1,8 @@
-Change Type,Description
-Dataset,Changed from 'Adult Dataset' to 'Penguins Dataset'.
-Feature Selection,Selected bill_length_mm and bill_depth_mm as features.
-Target Encoding,Used LabelEncoder to encode the species column.
-Data Preprocessing,Standardized features using StandardScaler.
-Train-Test Split,Applied an 80-20 split for training and testing.
-Modeling,Implemented Naïve Bayes (GaussianNB) for classification.
-Evaluation Metrics,Used accuracy, classification report, and confusion matrix for model evaluation.
-Performance Metrics,Model Accuracy: 0.9254 (Generated during execution).
+SL No.,Change Category,Description,Duration (mins),Difficulty (1-10)
+1,Dataset Change,Changed from 'Adult Dataset' to 'Penguins Dataset',10,3
+2,Feature Selection,Selected bill_length_mm and bill_depth_mm as features,8,4
+3,Target Encoding,Used LabelEncoder to encode the species column,5,3
+4,Data Preprocessing,Standardized features using StandardScaler,12,5
+5,Train-Test Split,Applied an 80-20 split for training and testing,7,4
+6,Model Implementation,Implemented Naïve Bayes (GaussianNB) for classification,15,6
+7,Model Evaluation,Used accuracy, classification report, and confusion matrix for evaluation,10,5
