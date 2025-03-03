@@ -30,7 +30,8 @@ This repository contains implementations of various **Machine Learning algorithm
   - 📂 **Naive Bayes/**
   - 📂 **Random Forest Classifier/**
   - 📂 **Support Vector Machine/**
-  - 📄 **README.md** (This file)
+  - 📄 **requirements.txt**
+  - 📄 **README.md**
 
 
 Each folder contains:
