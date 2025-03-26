@@ -1,9 +1,11 @@
-SL No.,Change Category,Description,Duration (mins),Difficulty (1-10)
-1,Dataset Change,Replaced Iris dataset with the Penguins dataset.,10,3
-2,Data Processing,Dropped missing values and encoded categorical target variables.,15,4
-3,Feature Selection,Used "bill_length_mm" and "bill_depth_mm" as features instead of PCA-transformed features.,10,3
-4,Logging Integration,Added logging for better tracking of process execution.,20,5
-5,Hyperparameter Tuning,Expanded "n_neighbors" search range from [1,3,5] to [1, 20].,25,6
-6,Performance Metrics,Used accuracy_score for evaluation instead of direct classification_report.,10,3
-7,Visualization,Implemented decision boundary plotting using matplotlib and seaborn.,45,7
-8,Dummy Classifier Removal,Removed DummyClassifier comparison for simplicity.,5,2
+SL No.,Change Category,Description,Duration (mins),Difficulty (1-10),,,
+1,Dataset Change,Replaced Iris dataset with the Penguins dataset.,10,3,,,
+2,Data Processing,Dropped missing values and encoded categorical target variables.,15,4,,,
+3,Feature Selection,"Used ""bill_length_mm"" and ""bill_depth_mm"" as features instead of PCA-transformed features.",10,3,,,
+4,Logging Integration,Added logging for better tracking of process execution.,20,5,,,
+5,Hyperparameter Tuning,"Expanded ""n_neighbors"" search range from [1,3,5] to [1, 20].",25,6
+6,Performance Metrics,Used accuracy_score for evaluation instead of direct classification_report.,10,3,,,
+7,Visualization,Implemented decision boundary plotting using matplotlib and seaborn.,45,7,,,
+8,Dummy Classifier Removal,Removed DummyClassifier comparison for simplicity.,5,2,,,
+9,Research & Reference,"Referred to multiple public notebooks on Kaggle  mainly based on knn_classification_v1.ipynb (https://www.kaggle.com/code/mmdatainfo/k-nearest-neighbors) and other KNN tutorials,  to understand hyperparameter tuning strategies and visualization improvements.",60,5,,,
+10,Debugging & Validation,"Time spent debugging errors, refining decision boundary plots  and validating outputs.",50,6,,,
