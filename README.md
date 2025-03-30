@@ -47,3 +47,13 @@ Each folder contains:
 2. Install dependencies
    ```sh
    pip install -r requirements.txt  
+
+
+---
+
+## 🌐 **Live Streamlit App**  
+
+Explore the **K-Nearest Neighbors (KNN)** model live on **Streamlit**:  
+[**KNN Model - Live App**](https://srikarsharma16-dataanalyticsml-portfolio-knnapp-1mmi2u.streamlit.app/)
+
+---
