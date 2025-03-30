@@ -1,59 +1,72 @@
-# Machine Learning Algorithms Portfolio 🚀  
+# 🚀 Machine Learning & Deep Learning Portfolio
 
-This repository contains implementations of various **Machine Learning algorithms**, structured using the **CRISP-DM framework**.  
-
----
-
-## 📌 Included Algorithms  
-
-- **Supervised Learning:**  
-  - 📊 **Linear Regression**  
-  - 📊 **Logistic Regression**  
-  - 🌲 **Decision Tree**  
-  - 🌲 **Random Forest**  
-  - 🤖 **Support Vector Machine (SVM)**  
-  - 🏷 **Naïve Bayes**  
-  - 👥 **K-Nearest Neighbors (KNN)**  
-
-- **Unsupervised Learning:**  
-  - 🔍 **K-Means Clustering**  
+This repository contains implementations of various **Machine Learning & Deep Learning algorithms**, structured to follow best practices in model development and evaluation.
 
 ---
 
-## 📂 Project Structure  
-- **DataAnalyticsML-Portfolio/**
-  - 📂 **Decision Tree/**
-  - 📂 **K-Means/**
-  - 📂 **KNN/**
-  - 📂 **Linear Regression/**
-  - 📂 **Logistic Regression/**
-  - 📂 **Naive Bayes/**
-  - 📂 **Random Forest Classifier/**
-  - 📂 **Support Vector Machine/**
-  - 📄 **requirements.txt**
-  - 📄 **README.md**
+## 📌 Included Algorithms
 
+### 🔹 Supervised Learning
+- 📊 **Linear Regression**  
+- 📊 **Logistic Regression**  
+- 🌲 **Decision Tree**  
+- 🌲 **Random Forest Classifier**  
+- 🤖 **Support Vector Machine (SVM)**  
+- 🏷 **Naïve Bayes**  
+- 👥 **K-Nearest Neighbors (KNN)**  
 
+### 🔹 Unsupervised Learning
+- 🔍 **K-Means Clustering**  
+
+### 🔹 Deep Learning
+- 🧠 **CNN (Convolutional Neural Networks)**  
+- 🧠 **LSTM (Long Short-Term Memory)**  
+- 🔄 **RNN (Recurrent Neural Networks)**  
+- 🤖 **Transformers (Self-Attention Models)**  
+
+---
+
+## 📂 Project Structure
+```plaintext
+📦 DataAnalyticsML-Portfolio/
+ ├── 📂 CNN/
+ ├── 📂 Decision Tree/
+ ├── 📂 K-Means/
+ ├── 📂 KNN/
+ ├── 📂 Linear Regression/
+ ├── 📂 Logistic Regression/
+ ├── 📂 LSTM/
+ ├── 📂 Naive Bayes/
+ ├── 📂 Random Forest Classifier/
+ ├── 📂 RNN/
+ ├── 📂 Support Vector Machine/
+ ├── 📂 Transformers/
+ ├── 📄 README.md
+ ├── 📄 requirements.txt
+```
 Each folder contains:
-- 📜 **Jupyter Notebook (.ipynb)** implementing the algorithm.
-- 🖥️ **HTML and PDF exports** of the notebook for easy viewing.
-- 📊 **CSV file Logs** documenting the model performance and improvements.
-
-## How to Use
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/srikarsharma16/DataAnalyticsML-Portfolio.git
-
-2. Install dependencies
-   ```sh
-   pip install -r requirements.txt  
-
+- 📜 **Jupyter Notebook (`.ipynb`)** implementing the algorithm  
+- 📊 **Model performance reports and hyperparameter tuning results**  
+- 🖥 **Deployment scripts (if applicable)**  
 
 ---
 
-## 🌐 **Live Streamlit App**  
+## 🚀 Getting Started
 
-Explore the **K-Nearest Neighbors (KNN)** model live on **Streamlit**:  
-[**KNN Model - Live App**](https://srikarsharma16-dataanalyticsml-portfolio-knnapp-1mmi2u.streamlit.app/)
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/srikarsharma16/DataAnalyticsML-Portfolio.git
+cd DataAnalyticsML-Portfolio
+```
+
+### 2️⃣ Install Dependencies
+```sh
+pip install -r requirements.txt
+```
 
 ---
+
+## 🌐 Live Streamlit App
+
+Explore the **K-Nearest Neighbors (KNN) Model** live on **Streamlit**:  
+🔗 [**KNN Model - Live App**](https://srikarsharma16-dataanalyticsml-portfolio-knnapp-1mmi2u.streamlit.app/) 
