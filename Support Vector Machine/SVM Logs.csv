@@ -1,9 +1,12 @@
 SL No.,Change Category,Description,Duration (mins),Difficulty (1-10)
-1,Decision Boundary Visualization,Fixed visualization issue by training SVM with only two features (bill_length_mm, bill_depth_mm),10,5
-2,Dataset Handling,Updated dataset to use only bill_length_mm and bill_depth_mm for better boundary visualization,8,4
-3,Dataset Selection,Replaced synthetic dataset with a real Kaggle dataset for a more practical application,15,6
-4,Framework Integration,Implemented the CRISP-DM framework for structured analysis and documentation,12,5
-5,Hyperparameter Tuning,Used GridSearchCV to optimize SVM hyperparameters,20,7
-6,Decision Boundary Enhancement,Improved decision boundary visualization with better plotting techniques,10,5
-7,Logging Implementation,Introduced structured logging for tracking model performance and errors,8,4
-8,Initial Implementation,Basic SVM model setup and training,5,3
+1,Base Code Selection,Used SVM-based classification from IPython Cookbook as the base implementation.,10,2
+2,Dataset Change,Replaced synthetic random data with the real-world penguins dataset from Seaborn.,20,4
+3,Feature Selection,Chose bill_length_mm and bill_depth_mm as input features encoding species as categorical target.,15,3
+4,Data Preprocessing,Used StandardScaler to normalize the feature space for better SVM performance.,20,4
+5,Train-Test Split,Implemented an 80-20 split for training and testing using train_test_split.,15,2
+6,Model Selection,Replaced LinearSVC() with SVC() to support non-linear decision boundaries.,25,5
+7,Hyperparameter Tuning,Used GridSearchCV to optimize C kernel and gamma parameters for better accuracy.,45,6
+8,Performance Evaluation,Included classification_report and accuracy_score to assess model accuracy.,30,3
+9,Decision Boundary Visualization,Modified plot_decision_boundary() to visualize the SVM decision boundary on real-world data.,35,5
+10,Logging Integration,Added structured logging at key steps following the CRISP-DM methodology.,20,4
+11,Documentation & Code Cleanup,Added inline comments formatted code and improved readability.,25,3

@@ -7516,10 +7516,9 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="K-Means-Clustering-Implementation"><strong>K-Means Clustering Implementation</strong><a class="anchor-link" href="#K-Means-Clustering-Implementation">¶</a></h1><p><strong>Author:</strong> Srikar Kalle<br/>
+<h3 id="K-Means-Clustering-on-Penguins-Dataset"><strong>K-Means Clustering on Penguins Dataset</strong><a class="anchor-link" href="#K-Means-Clustering-on-Penguins-Dataset">¶</a></h3><p><strong>Author:</strong> Srikar Kalle<br/>
 <strong>Student ID:</strong> C00313529</p>
-<hr/>
-<h1 id="Change-Log"><strong>Change Log</strong><a class="anchor-link" href="#Change-Log">¶</a></h1><hr/>
+<h3 id="Code-Reference:-GitHub:-PythonDataScienceHandbook/notebooks_v1/05.11-K-Means">Code Reference: <a href="https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks_v1/05.11-K-Means.ipynb">GitHub: PythonDataScienceHandbook/notebooks_v1/05.11-K-Means</a><a class="anchor-link" href="#Code-Reference:-GitHub:-PythonDataScienceHandbook/notebooks_v1/05.11-K-Means">¶</a></h3><hr/>
 <table>
 <thead>
 <tr>
@@ -7532,63 +7531,78 @@ a.anchor-link {
 </thead>
 <tbody>
 <tr>
-<td><strong>1</strong></td>
-<td>Dataset Change</td>
-<td>Replaced Iris dataset with the Penguins dataset.</td>
+<td>1</td>
+<td><strong>Base Code Selection</strong></td>
+<td>Used <code>K-Means</code> implementation from Python Data Science Handbook as reference.</td>
 <td>10</td>
-<td>3</td>
+<td>2</td>
 </tr>
 <tr>
-<td><strong>2</strong></td>
-<td>Data Processing</td>
-<td>Dropped missing values and encoded categorical target variables.</td>
-<td>15</td>
+<td>2</td>
+<td><strong>Dataset Change</strong></td>
+<td>Replaced synthetic <code>make_blobs</code> dataset with the <code>penguins</code> dataset from Seaborn.</td>
+<td>20</td>
 <td>4</td>
 </tr>
 <tr>
-<td><strong>3</strong></td>
-<td>Feature Selection</td>
-<td>Used <code>bill_length_mm</code> and <code>bill_depth_mm</code> as features instead of PCA-transformed features.</td>
-<td>10</td>
 <td>3</td>
-</tr>
-<tr>
-<td><strong>4</strong></td>
-<td>Logging Integration</td>
-<td>Added <code>logging</code> for better tracking of process execution.</td>
-<td>20</td>
-<td>5</td>
-</tr>
-<tr>
-<td><strong>5</strong></td>
-<td>Hyperparameter Tuning</td>
-<td>Expanded <code>n_neighbors</code> search range from [1,3,5] to [1, 20].</td>
+<td><strong>Data Preprocessing</strong></td>
+<td>Handled missing values by dropping NaNs and applied <code>StandardScaler</code> to normalize numerical features.</td>
 <td>25</td>
-<td>6</td>
+<td>5</td>
 </tr>
 <tr>
-<td><strong>6</strong></td>
-<td>Performance Metrics</td>
-<td>Used <code>accuracy_score</code> for evaluation instead of direct <code>classification_report</code>.</td>
-<td>10</td>
+<td>4</td>
+<td><strong>Feature Selection</strong></td>
+<td>Selected <code>bill_length_mm</code>, <code>bill_depth_mm</code>, <code>flipper_length_mm</code>, and <code>body_mass_g</code> for clustering.</td>
+<td>15</td>
 <td>3</td>
 </tr>
 <tr>
-<td><strong>7</strong></td>
-<td>Visualization</td>
-<td>Implemented decision boundary plotting using <code>matplotlib</code> and <code>seaborn</code>.</td>
+<td>5</td>
+<td><strong>Finding Optimal k</strong></td>
+<td>Implemented the <strong>Elbow Method</strong> by computing WCSS for k=1 to k=10.</td>
 <td>30</td>
-<td>7</td>
+<td>5</td>
 </tr>
 <tr>
-<td><strong>8</strong></td>
-<td>Dummy Classifier Removal</td>
-<td>Removed <code>DummyClassifier</code> comparison for simplicity.</td>
+<td>6</td>
+<td><strong>Model Implementation</strong></td>
+<td>Trained <code>KMeans(n_clusters=3)</code> based on the optimal k from Elbow Method.</td>
+<td>20</td>
+<td>4</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>Cluster Evaluation</strong></td>
+<td>Calculated <strong>Silhouette Score</strong> to assess clustering quality.</td>
+<td>25</td>
 <td>5</td>
-<td>2</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Visualization - Cluster Scatter Plot</strong></td>
+<td>Created a scatter plot of clustered data with centroids marked for better interpretation.</td>
+<td>30</td>
+<td>4</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>Logging Integration</strong></td>
+<td>Added logging for dataset loading, preprocessing, training, and evaluation steps.</td>
+<td>20</td>
+<td>3</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>Code Optimization</strong></td>
+<td>Cleaned up code, removed redundancies, and improved efficiency.</td>
+<td>20</td>
+<td>3</td>
 </tr>
 </tbody>
 </table>
+<hr/>
 </div>
 </div>
 </div>

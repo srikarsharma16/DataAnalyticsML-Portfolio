@@ -1,0 +1,8 @@
+SL No.,Change Category,Description,Duration (mins),Difficulty (1-10)
+1,Dataset Update,Replaced synthetic dataset (make_blobs) with Penguins dataset for real-world classification.,15,4
+2,Feature Engineering,Encoded categorical variables (species | island | sex) using LabelEncoder().,10,5
+3,Preprocessing,Dropped species from the features to use as target variable.,5,3
+4,Train-Test Split,Implemented train_test_split (80/20 split) with random_state=42 for reproducibility.,10,4
+5,Model Training,Trained DecisionTreeClassifier on Penguins dataset.,20,6
+6,Model Evaluation,Added accuracy_score and classification_report for evaluation.,15,6
+7,Visualization Update,Used plot_tree() with feature names for improved readability.,15,5

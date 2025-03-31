@@ -1,12 +1,12 @@
 SL No.,Change Category,Description,Duration (mins),Difficulty (1-10)
-1,Data Handling,Replaced assign() with pd.get_dummies() for better categorical encoding,10,4
-2,Feature Scaling,Introduced StandardScaler to normalize Age and Pclass for better model performance,15,5
-3,Hyperparameter Tuning,Optimized Logistic Regression using GridSearchCV with an improved parameter grid,20,7
-4,Model Evaluation,Introduced ROC Curve & AUC Score to assess model performance,15,6
-5,Test Split Update,Increased test_size from 0.05 to 0.2 for a better validation split,5,3
-6,Model Implementation,Implemented basic Logistic Regression using LogisticRegression(),10,3
-7,Cross-Validation,Used cross_val_score() for performance evaluation,15,5
-8,Hyperparameter Optimization,Applied GridSearchCV with a logarithmic range of C values,20,7
-9,Data Preprocessing,Converted Sex column into a binary Female column,10,4
-10,Data Preprocessing,Dropped missing values from Age,5,3
-11,Performance Visualization,Compared actual vs. predicted values in a heatmap,10,4
+1,Data Handling,Replaced assign() with pd.get_dummies() for better categorical encoding.,10,4
+2,Feature Scaling,Introduced StandardScaler to normalize Age and Pclass for better model performance.,15,5
+3,Hyperparameter Tuning,Optimized Logistic Regression using GridSearchCV with an improved parameter grid.,20,7
+4,Model Evaluation,Introduced ROC Curve & AUC Score to assess model performance.,15,6
+5,Test Split Update,Increased test_size from 0.05 to 0.2 for a better validation split.,5,3
+6,Model Implementation,Implemented basic Logistic Regression using LogisticRegression().,10,3
+7,Cross-Validation,Used cross_val_score() for performance evaluation.,15,5
+8,Hyperparameter Optimization,Applied GridSearchCV with a logarithmic range of C values.,20,7
+9,Data Preprocessing,Converted Sex column into a binary Female column.,10,4
+10,Data Preprocessing,Dropped missing values from Age.,5,3
+11,Performance Visualization,Compared actual vs. predicted values in a heatmap.,10,4

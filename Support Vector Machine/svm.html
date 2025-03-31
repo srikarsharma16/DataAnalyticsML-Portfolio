@@ -7516,10 +7516,9 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Support-Vector-Machine-(SVM)-Implementation">Support Vector Machine (SVM) Implementation<a class="anchor-link" href="#Support-Vector-Machine-(SVM)-Implementation">¶</a></h1><p><strong>Author:</strong> Srikar Kalle<br/>
+<h1 id="Support-Vector-Machine-(SVM)-Implementation"><strong>Support Vector Machine (SVM) Implementation</strong><a class="anchor-link" href="#Support-Vector-Machine-(SVM)-Implementation">¶</a></h1><p><strong>Author:</strong> Srikar Kalle<br/>
 <strong>Student ID:</strong> C00313529</p>
-<hr/>
-<h1 id="Change-Log:">Change Log:<a class="anchor-link" href="#Change-Log:">¶</a></h1><hr/>
+<h3 id="Code-Reference:-GitHub:-ipython-books/cookbook-2nd-code/chapter08_ml/05_svm">Code Reference: <a href="https://github.com/ipython-books/cookbook-2nd-code/blob/master/chapter08_ml/05_svm.ipynb">GitHub: ipython-books/cookbook-2nd-code/chapter08_ml/05_svm</a><a class="anchor-link" href="#Code-Reference:-GitHub:-ipython-books/cookbook-2nd-code/chapter08_ml/05_svm">¶</a></h3><h1 id="Change-Log"><strong>Change Log</strong><a class="anchor-link" href="#Change-Log">¶</a></h1><hr/>
 <table>
 <thead>
 <tr>
@@ -7533,62 +7532,84 @@ a.anchor-link {
 <tbody>
 <tr>
 <td>1</td>
-<td>Decision Boundary Visualization</td>
-<td>Fixed visualization issue by training SVM with only <strong>two features</strong> (<code>bill_length_mm</code>, <code>bill_depth_mm</code>).</td>
+<td><strong>Base Code Selection</strong></td>
+<td>Used SVM-based classification from IPython Cookbook as the base implementation.</td>
 <td>10</td>
-<td>5</td>
+<td>2</td>
 </tr>
 <tr>
 <td>2</td>
-<td>Dataset Handling</td>
-<td>Updated dataset to use only <strong>bill_length_mm and bill_depth_mm</strong> for better boundary visualization.</td>
-<td>8</td>
+<td><strong>Dataset Change</strong></td>
+<td>Replaced synthetic random data with the real-world <code>penguins</code> dataset from Seaborn.</td>
+<td>20</td>
 <td>4</td>
 </tr>
 <tr>
 <td>3</td>
-<td>Dataset Selection</td>
-<td>Replaced <strong>synthetic dataset</strong> with a <strong>real Kaggle dataset</strong> for a more practical application.</td>
+<td><strong>Feature Selection</strong></td>
+<td>Chose <code>bill_length_mm</code> and <code>bill_depth_mm</code> as input features, encoding <code>species</code> as categorical target.</td>
 <td>15</td>
-<td>6</td>
+<td>3</td>
 </tr>
 <tr>
 <td>4</td>
-<td>Framework Integration</td>
-<td>Implemented the <strong>CRISP-DM framework</strong> for structured analysis and documentation.</td>
-<td>12</td>
-<td>5</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Hyperparameter Tuning</td>
-<td>Used <code>GridSearchCV</code> to optimize <strong>SVM hyperparameters</strong>.</td>
+<td><strong>Data Preprocessing</strong></td>
+<td>Used <code>StandardScaler</code> to normalize the feature space for better SVM performance.</td>
 <td>20</td>
-<td>7</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Decision Boundary Enhancement</td>
-<td>Improved <strong>decision boundary visualization</strong> with better plotting techniques.</td>
-<td>10</td>
-<td>5</td>
-</tr>
-<tr>
-<td>7</td>
-<td>Logging Implementation</td>
-<td>Introduced <strong>structured logging</strong> for tracking model performance and errors.</td>
-<td>8</td>
 <td>4</td>
 </tr>
 <tr>
-<td>8</td>
-<td>Initial Implementation</td>
-<td>Basic SVM model setup and training.</td>
 <td>5</td>
+<td><strong>Train-Test Split</strong></td>
+<td>Implemented an 80-20 split for training and testing using <code>train_test_split</code>.</td>
+<td>15</td>
+<td>2</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Model Selection</strong></td>
+<td>Replaced <code>LinearSVC()</code> with <code>SVC()</code> to support non-linear decision boundaries.</td>
+<td>25</td>
+<td>5</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>Hyperparameter Tuning</strong></td>
+<td>Used <code>GridSearchCV</code> to optimize <code>C</code>, <code>kernel</code>, and <code>gamma</code> parameters for better accuracy.</td>
+<td>45</td>
+<td>6</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Performance Evaluation</strong></td>
+<td>Included <code>classification_report</code> and <code>accuracy_score</code> to assess model accuracy.</td>
+<td>30</td>
+<td>3</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>Decision Boundary Visualization</strong></td>
+<td>Modified <code>plot_decision_boundary()</code> to visualize the SVM decision boundary on real-world data.</td>
+<td>35</td>
+<td>5</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>Logging Integration</strong></td>
+<td>Added structured logging at key steps, following the CRISP-DM methodology.</td>
+<td>20</td>
+<td>4</td>
+</tr>
+<tr>
+<td>11</td>
+<td><strong>Documentation &amp; Code Cleanup</strong></td>
+<td>Added inline comments, formatted code, and improved readability.</td>
+<td>25</td>
 <td>3</td>
 </tr>
 </tbody>
 </table>
+<hr/>
 </div>
 </div>
 </div>

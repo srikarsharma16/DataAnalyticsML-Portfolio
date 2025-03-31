@@ -1,0 +1,10 @@
+SL No.,Change Category,Description,Duration (mins),Difficulty (1-10)
+1,Regularization,Added Batch Normalization and Dropout layers to prevent overfitting.,30,6
+2,Dataset Normalization,Ensured CIFAR-10 dataset is properly loaded and normalized (scaling pixel values).,10,2
+3,Hyperparameter Tuning,Used Adam optimizer with learning rate tuning (0.001) instead of default settings.,20,5
+4,Architecture Enhancement,Increased model depth with additional Conv2D and MaxPooling layers for better feature extraction.,40,7
+5,Logging & Monitoring,Integrated TensorBoard for real-time logging and model checkpointing for best validation accuracy.,25,5
+6,Evaluation Metrics, Added precision recall F1-score and confusion matrix visualization.,30,6
+7,Model Serialization,Implemented model saving using .h5 format for deployment readiness.,15,4
+8,Research & Reference,The base CNN implementation was taken from GitHub - Basic CNN Implementation (https://github.com/SamaSamrin/Basic-CNN-Implementation/blob/main/Basic_CNN_Implementation.ipynb). Improvements were inspired by advanced CNN architectures Kaggle notebooks and TensorFlow documentation on Batch Normalization & Dropout.,50,5
+9,Debugging & Validation,Fixed issues related to overfitting activation function mismatches and loss convergence.,45,7

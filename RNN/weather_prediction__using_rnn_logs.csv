@@ -1,0 +1,12 @@
+SL No.,Change Category,Description,Duration (mins),Difficulty (1-10)
+1,Dataset,Changed dataset from Seattle Weather (Base Code) to GlobalWeatherRepository.csv providing a more diverse global dataset.,10,3
+2,Feature Selection,Instead of using only temp_max (Base Code) the updated code includes multiple weather features (temperature | humidity | pressure | wind speed | and visibility) to enhance predictive power.,15,4
+3,Data Preprocessing,Replaced simple numpy conversion with MinMaxScaler normalization for improved model convergence and stability.,15,4
+4,Model Architecture,Base Code: Used a stacked LSTM model with 4 LSTM layers. Updated Code: Switched to a Simple RNN-based model with reduced complexity while maintaining sequence learning capabilities.,20,7
+5,Model Layers,Base Code: 4 LSTM layers with Dropout. Updated Code: Uses 2 SimpleRNN layers with Dropout and Dense layers to balance performance and efficiency.,20,6
+6,Sequence Preparation,Base Code: Used WINDOW = 10 for fixed time-series sequences. Updated Code: Implements a dynamic sequence generator using MinMax-scaled features.,15,4
+7,Model Compilation,Base Code: Used Adam optimizer with default settings. Updated Code: Fine-tuned Adam with learning_rate=0.001 for better convergence.,10,3
+8,Training and Evaluation,Base Code: Trained for 100 epochs. Updated Code: Reduced training to 20 epochs while maintaining accuracy due to better data normalization and efficient architecture.,15,5
+9,Hyperparameter Tuning,Added keras_tuner for optimizing hyperparameters which was absent in the base code.,20,7
+10,Model Saving,Base Code: Saved as regressor. Updated Code: Saved as "weather_rnn_model.h5".,5,2
+11,Visualization,Base Code: Used seaborn for loss visualization. Updated Code: Improved visualization with matplotlib comparing train vs. validation loss dynamically.,10,4

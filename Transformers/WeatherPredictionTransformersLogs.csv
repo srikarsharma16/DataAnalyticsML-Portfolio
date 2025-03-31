@@ -1,0 +1,11 @@
+SL No.,Change Category,Description,Duration (mins),Difficulty (1-10)
+1,Dataset,Updated the dataset path to use a new GlobalWeatherRepository.csv dataset instead of the Seattle weather dataset.,10,3
+2,Feature Selection,Added more weather-related features: humidity | pressure_mb | wind_kph | visibility_km along with temperature_celsius to the dataset improving the model's ability to predict.,15,4
+3,Data Preprocessing,Removed missing values and normalized the dataset using MinMaxScaler to ensure better model convergence.,15,4
+4,Model Architecture,Replaced the RNN model with a Transformer architecture using MultiHeadAttention and Dense layers for improved sequence processing.,30,7
+5,Model Layers,Added LayerNormalization and Dropout layers for regularization and to avoid overfitting improving the generalization ability of the model.,20,6
+6,Sequence Preparation,Updated the sequence preparation logic to match the new dataset and transformer model generating sequences of length 10.,15,4
+7,Model Compilation,Changed model compilation to use the Adam optimizer with learning_rate=0.001 and MSE loss for regression tasks.,10,3
+8,Training and Evaluation,Added validation data during training and improved loss evaluation by plotting both train and validation loss.,20,4
+9,Model Saving,Updated model saving format to store the Transformer model with the name weather_transformer_model.h5.,5,2
+10,Visualization,Added visualizations for training and validation loss to help track model performance over epochs.,10,4

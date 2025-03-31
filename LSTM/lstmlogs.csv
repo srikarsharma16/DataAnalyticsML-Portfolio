@@ -1,0 +1,12 @@
+SL No.,Change Category,Description,Duration (mins),Difficulty (1-10)
+1,Dataset,Changed dataset from Seattle Weather (Base Code) to GlobalWeatherRepository.csv enabling a more diverse and generalized model.,10,3
+2,Feature Selection,Instead of using only temp_max (Base Code) the updated code includes multiple weather variables (temperature | humidity | pressure | wind speed | and visibility) to enhance predictive power.,15,4
+3,Data Preprocessing,Introduced MinMaxScaler for better data normalization improving model convergence and stability.,15,4
+4,Sequence Preparation,Used dynamic sequence generation for better adaptability instead of a fixed WINDOW = 10.,15,4
+5,Train-Test Split,Used train_test_split() from sklearn for better data partitioning replacing manual splitting in base code.,10,3
+6,Hyperparameter Tuning,Base Code: Used fixed LSTM units and dropout values. Updated Code: Added keras_tuner to dynamically optimize LSTM units dropout rates, and learning rates.,30,7
+7,Model Architecture,Base Code: Used a fixed LSTM architecture with 4 layers. Updated Code: Added hyperparameter tuning to find the optimal number of LSTM units and dropout values.,25,6
+8,Model Compilation,Base Code: Used Adam with default settings. Updated Code: Optimized learning rate dynamically using keras_tuner for improved training efficiency.,10,4
+9,Model Training,Base Code: Trained for 100 epochs. Updated Code: Used keras_tuner to optimize epochs dynamically leading to more efficient training.,15,5
+10,Model Evaluation,Improved visualization of train vs. validation loss using matplotlib. Replaced seaborn with simpler matplotlib plots for better customization.,10,3
+11,Model Saving,Base Code: Saved model manually. Updated Code: Saves the final optimized model as "weather_lstm_model.h5".,5,2
