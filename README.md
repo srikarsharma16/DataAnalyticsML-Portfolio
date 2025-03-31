@@ -66,7 +66,19 @@ pip install -r requirements.txt
 
 ---
 
-## 🌐 Live Streamlit App
+## 🌐 Live Streamlit Apps
 
-Explore the **K-Nearest Neighbors (KNN) Model** live on **Streamlit**:  
-🔗 [**KNN Model - Live App**](https://srikarsharma16-dataanalyticsml-portfolio-knnapp-1mmi2u.streamlit.app/) 
+🔗 **K-Nearest Neighbors (KNN) Model - Live App**  
+[![KNN Model](https://img.shields.io/badge/🔗-KNN_Model_Deployment-blue)](https://srikarsharma16-dataanalyticsml-portfolio-knnapp-1mmi2u.streamlit.app/)  
+
+🔗 **Weather Forecasting with RNN & LSTM**  
+[![Weather Forecast](https://img.shields.io/badge/🔗-Weather_Prediction_App-green)](https://dataanalyticsml-portfolio-ef8ws6go7wk8svph6wetkw.streamlit.app/)  
+
+---
+
+## 📖 References
+
+This project is built using insights from various sources:
+- 📚 **GitHub Repositories**
+- 📊 **Kaggle Datasets & Notebooks**
+- 🤖 **ChatGPT for Refinements & Debugging Assistance**
